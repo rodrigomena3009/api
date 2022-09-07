@@ -1,0 +1,88 @@
+Microsoft Windows [Versión 10.0.22000.795]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\rodri>cd desktop
+
+C:\Users\rodri\Desktop>git clone https://github.com/rodrigomena3009/api.git
+Cloning into 'api'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\rodri\Desktop>git add *
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\rodri\Desktop>cd api
+
+C:\Users\rodri\Desktop\api>git add *
+
+C:\Users\rodri\Desktop\api>git commit -m 'hola'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'rodri@LAPTOP-N2IKKIVT.(none)')
+
+C:\Users\rodri\Desktop\api>git push
+info: please complete authentication in your browser...
+Everything up-to-date
+
+C:\Users\rodri\Desktop\api>git commit -m 'hola'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'rodri@LAPTOP-N2IKKIVT.(none)')
+
+C:\Users\rodri\Desktop\api>git commit -m 'hola'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'rodri@LAPTOP-N2IKKIVT.(none)')
+
+C:\Users\rodri\Desktop\api>git config --global user.email "rodrigomena3009@gmail.com"
+
+C:\Users\rodri\Desktop\api>git config --global user.name "rodrigomena3009"
+
+C:\Users\rodri\Desktop\api>git commit -m 'hola'
+[main 879c190] 'hola'
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ARAUCARIA 101.2m2 ZURDA (1).pdf
+
+C:\Users\rodri\Desktop\api>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 162.46 KiB | 18.05 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rodrigomena3009/api.git
+   514c95a..879c190  main -> main
+
+C:\Users\rodri\Desktop\api>
